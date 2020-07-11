@@ -8,24 +8,41 @@
   <title>Moon Sea - vaziliybober</title>
 
   <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/atomic.css">
 </head>
 
-<body class="landing-text">
-  <header class="display-flex">
-    <div class="display-flex">
-      <img class="logo-image" src="images/logo.svg" alt="Логотип">
-      <span class="logo-name">Лунное море</span>
+<body class="m-0 landing-text">
+
+  <header class="content pos-fixed jc-between h-header fw-bold">
+    <div class="d-flex ai-center h-100">
+      <img class="h-70 p-10p" src="images/logo.svg" alt="Логотип">
+      <span class="pr-20p">Лунное море</span>
     </div>
     <nav>
-      <ul class="display-flex">
-        <li>Преимущества</li>
-        <li>О ЖК</li>
-        <li>Места для отдыха</li>
+      <ul class="d-flex list-style-none">
+        <li class="pr-20p">Преимущества</li>
+        <li class="pr-20p">О ЖК</li>
+        <li class="pr-20p">Места для отдыха</li>
       </ul>
     </nav>
   </header>
-  <main>Main</main>
+
+  <div class="pt-header"></div>
+
+  <main>
+    <section class="content fd-column jc-center h-booking-section bg-banner color-white">
+      <img class="h-40 pb-10p" src="images/logo.svg" alt="Логотип">
+      <h1 class="m-0 ta-center fs-43p pb-5p">ЖК «Лунное море»</h1>
+      <span class="m-0 ta-center pb-20p fw-bold">Место, откуда не хочется улетать</span>
+      <button class="button" type="button" name="booking-button">
+        Забронировать
+      </button>
+    </section>
+
+  </main>
+
   <footer>Footer</footer>
+
 </body>
 
 </html>
