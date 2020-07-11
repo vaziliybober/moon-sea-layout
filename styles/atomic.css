@@ -18,6 +18,10 @@
   align-items: center;
 }
 
+.ai-stretch {
+  align-items: stretch;
+}
+
 .pos-fixed {
   position: fixed;
 }
@@ -34,12 +38,28 @@
   height: 40%;
 }
 
+.h-150p {
+  height: 150px;
+}
+
+.w-25 {
+  width: 25%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
 .p-10p {
   padding: 10px;
 }
 
 .pr-20p {
   padding-right: 20px;
+}
+
+.pr-40p {
+  padding-right: 70px;
 }
 
 .pb-20p {
@@ -56,6 +76,10 @@
 
 .m-0 {
   margin: 0;
+}
+
+.m-0-auto {
+  padding: 0 auto;
 }
 
 .list-style-none {
@@ -76,4 +100,8 @@
 
 .fw-bold {
   font-weight: bold;
+}
+
+.bg-light-gray {
+  background: #f7f7f7;
 }

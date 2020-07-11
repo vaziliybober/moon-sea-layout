@@ -1,6 +1,20 @@
 :root {
   --header-height: 70px;
   --booking-section-height: 350px;
+  --main-section-width: 1000px;
+  --primary-color: #303846;
+}
+
+a:link {
+  color: var(--primary-color)
+}
+
+a:visited {
+  color: var(--primary-color)
+}
+
+a:active {
+  color: var(--primary-color)
 }
 
 .h-header {
@@ -33,10 +47,10 @@
 .landing-text {
   font-family: sans-serif;
   font-size: 16px;
-  color: #303846;
+  color: var(--primary-color)
 }
 
-.content {
+.fullscreen-section {
   display: flex;
   align-items: center;
   width: 100%;
@@ -46,4 +60,12 @@
   background-image: url(../images/banner.png);
   background-position: 100% 70%;
   background-size: cover;
+}
+
+.centered-section {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  padding: 40px 0;
+  width: var(--main-section-width);
 }
