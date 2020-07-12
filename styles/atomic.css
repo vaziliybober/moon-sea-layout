@@ -1,3 +1,9 @@
+@import "constant.css"
+
+.test-border {
+  border: 1px solid black;
+}
+
 .d-flex {
   display: flex;
 }
@@ -22,8 +28,20 @@
   align-items: stretch;
 }
 
+.as-center {
+  align-self: center;
+}
+
 .pos-fixed {
   position: fixed;
+}
+
+.float-left {
+  float: left;
+}
+
+.list-style-none {
+  list-style: none;
 }
 
 .h-100 {
@@ -42,16 +60,52 @@
   height: 150px;
 }
 
+.h-header {
+  height: var(--h-header);
+}
+
+.h-booking {
+  height: var(--h-booking);
+}
+
+.w-main {
+  width: var(--w-main);
+}
+
+.w-form {
+  width: var(--w-form);
+}
+
 .w-25 {
   width: 25%;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.w-40 {
+  width: 40%;
 }
 
 .w-50 {
   width: 50%;
 }
 
+.p-20p {
+  padding: 20px;
+}
+
 .p-10p {
   padding: 10px;
+}
+
+.p-5p {
+  padding: 5px;
+}
+
+.pt-header {
+  padding-top: var(--h-header);
 }
 
 .pr-20p {
@@ -78,30 +132,46 @@
   margin: 0;
 }
 
-.m-0-auto {
-  padding: 0 auto;
-}
-
-.list-style-none {
-  list-style: none;
-}
-
-.ta-center {
-  text-align: center;
-}
-
-.color-white {
-  color: white;
+.ta-right {
+  text-align: right;
 }
 
 .fs-43p {
   font-size: 43px;
 }
 
+.fs-20p {
+  font-size: 20px;
+}
+
 .fw-bold {
   font-weight: bold;
 }
 
-.bg-light-gray {
-  background: #f7f7f7;
+.color-white {
+  color: white;
+}
+
+.color-prim {
+  color: var(--color-prim);
+}
+
+.color-sec {
+  color: var(--color-sec);
+}
+
+.color-alt {
+  color: var(--color-alt);
+}
+
+.border-color-sec {
+  border-color: var(--color-sec);
+}
+
+.border-color-alt {
+  border-color: var(--color-alt);
+}
+
+.bg-color-alt {
+  background: var(--bg-color-alt);
 }
