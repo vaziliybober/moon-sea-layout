@@ -23,7 +23,6 @@
         <li class="pr-20p"><a href="#advantages">Преимущества</a></li>
         <li class="pr-20p"><a href="#about">О ЖК</a></li>
         <li class="pr-20p"><a href="#rest-zones">Места для отдыха</a></li>
-        <li class="pr-20p"><a href="#application-form">Оформить заявку</a></li>
       </ul>
     </nav>
   </header>
@@ -35,13 +34,13 @@
       <img class="h-40 pb-10p" src="images/logo.svg" alt="Логотип">
       <h1 class="m-0 fs-43p pb-5p">ЖК «Лунное море»</h1>
       <span class="m-0 pb-20p fw-bold">Место, откуда не хочется улетать</span>
-      <button class="button border-color-sec color-sec">
-        Забронировать
-      </button>
+        <a class="button border-color-sec color-sec" href="#application-form">
+          Забронировать
+        </a>
+
     </section>
 
-    <a name="advantages"></a>
-    <div>
+    <div id="advantages">
       <section class="centered-section w-main">
         <article class="w-25">
           <h2>Уникальный вид</h2>
@@ -58,8 +57,7 @@
       </section>
     </div>
 
-    <a name="about"></a>
-    <div class="bg-color-alt">
+    <div class="bg-color-alt" id="about">
       <section class="centered-section w-main ai-center">
         <article class="w-50">
           <h2>О ЖК «Лунное море»</h2>
@@ -70,8 +68,7 @@
       </section>
     </div>
 
-    <a name="rest-zones"></a>
-    <div>
+    <div id="rest-zones">
       <section class="centered-section w-main ai-center">
         <img class="h-150p" src="images/moon-2.jpg" alt="Отдых на луне">
         <article class="w-50">
@@ -82,8 +79,7 @@
       </section>
     </div>
 
-    <a name="application-form"></a>
-    <div class="bg-color-alt">
+    <form class="bg-color-alt" id="application-form">
       <section class="centered-section fd-column w-form fw-bold">
         <h2 class="as-center">Оставьте заявку сегодня!</h2>
 
@@ -129,9 +125,9 @@
 
         <br>
 
-        <button class="button w-25 border-color-alt color-alt">Отправить</button>
+        <a class="button w-25 ta-center border-color-alt color-alt">Отправить</a>
       </section>
-    </div>
+    </form>
 
   </main>
 
@@ -145,21 +141,21 @@
       <span class="fw-normal opacity">&copy; 2032 год</span>
     </div>
 
-    <menu>
+    <div>
       <h3>Проектная документация</h3>
-      <ul>
+      <menu>
         <li>Скачать</li>
         <li>Посмотреть на сайте</li>
-      </ul>
-    </menu>
+      </menu>
+    </div>
 
-    <menu>
+    <div>
       <h3>О застройщике</h3>
-      <ul>
+      <menu>
         <li>Отзывы</li>
         <li>Сайт компании</li>
-      </ul>
-    </menu>
+      </menu>
+    </div>
 
   </footer>
 

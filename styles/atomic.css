@@ -160,6 +160,10 @@
   text-align: right;
 }
 
+.ta-center {
+  text-align: center;
+}
+
 .fs-43p {
   font-size: 43px;
 }
