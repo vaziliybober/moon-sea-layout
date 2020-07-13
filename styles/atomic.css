@@ -76,14 +76,6 @@
   height: var(--h-header);
 }
 
-.h-booking {
-  height: var(--h-booking);
-}
-
-.h-footer {
-  height: var(--h-footer);
-}
-
 .w-main {
   width: var(--w-main);
 }
@@ -110,6 +102,10 @@
 
 .p-20p {
   padding: 20px;
+}
+
+.p-40p {
+  padding: 40px;
 }
 
 .p-60p {

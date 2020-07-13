@@ -13,7 +13,7 @@
 
 <body class="m-0 landing-text">
 
-  <header class="fullscreen-section pos-fixed jc-between h-header bg-color-prim fw-bold">
+  <header class="header bg-color-prim fw-bold">
     <div class="d-flex ai-center">
       <img class="h-50p p-10p" src="images/logo.svg" alt="Логотип">
       <span class="pr-20p">Лунное море</span>
@@ -30,18 +30,21 @@
   <div class="pt-header"></div>
 
   <main>
-    <section class="fullscreen-section fd-column jc-center h-booking bg-banner color-sec">
-      <img class="h-40 pb-10p" src="images/logo.svg" alt="Логотип">
-      <h1 class="m-0 fs-43p pb-5p">ЖК «Лунное море»</h1>
-      <span class="m-0 pb-20p fw-bold">Место, откуда не хочется улетать</span>
+    <div class="wrapper bg-banner">
+      <section class="container fd-column ai-center color-sec">
+        <img class="h-150p pb-10p" src="images/logo.svg" alt="Логотип">
+        <h1 class="m-0 fs-43p pb-5p">ЖК «Лунное море»</h1>
+        <span class="m-0 pb-20p fw-bold">Место, откуда не хочется улетать</span>
         <a class="button border-color-sec color-sec" href="#application-form">
           Забронировать
         </a>
 
-    </section>
+      </section>
+    </div>
 
-    <div id="advantages">
-      <section class="centered-section w-main">
+    <a class="anchor" id="advantages"></a>
+    <div class="wrapper">
+      <section class="container">
         <article class="w-25">
           <h2>Уникальный вид</h2>
           <p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками</p>
@@ -57,8 +60,9 @@
       </section>
     </div>
 
-    <div class="bg-color-alt" id="about">
-      <section class="centered-section w-main ai-center">
+    <a class="anchor" id="about"></a>
+    <div class="wrapper bg-color-alt">
+      <section class="container ai-center">
         <article class="w-50">
           <h2>О ЖК «Лунное море»</h2>
           <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
@@ -68,8 +72,9 @@
       </section>
     </div>
 
-    <div id="rest-zones">
-      <section class="centered-section w-main ai-center">
+    <a class="anchor" id="rest-zones"></a>
+    <div class="wrapper">
+      <section class="container">
         <img class="h-150p" src="images/moon-2.jpg" alt="Отдых на луне">
         <article class="w-50">
           <h2>Места для отдыха</h2>
@@ -79,59 +84,62 @@
       </section>
     </div>
 
-    <form class="bg-color-alt" id="application-form">
-      <section class="centered-section fd-column w-form fw-bold">
-        <h2 class="as-center">Оставьте заявку сегодня!</h2>
+    <a class="anchor" id="application-form"></a>
+    <div class="wrapper bg-color-alt">
+      <form>
+        <section class="container fd-column w-form fw-bold">
+          <h2 class="as-center">Оставьте заявку сегодня!</h2>
 
-        <fieldset class="border-color-alt p-20p">
-          <legend class="color-alt fs-20p">Параметры квартиры</legend>
+          <fieldset class="border-color-alt p-20p">
+            <legend class="color-alt fs-20p">Параметры квартиры</legend>
 
-          <div class="field">
-            <label class="w-50">Количество комнат:</label>
-            <select class="input w-30">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-            </select>
-          </div>
+            <div class="field">
+              <label class="w-50">Количество комнат:</label>
+              <select class="input w-30">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+              </select>
+            </div>
 
-          <div class="field">
-            <label class="w-50">Отделка:</label>
-            <select class="input w-30">
-              <option>Без отделки</option>
-              <option>Стандартная</option>
-              <option>Премиум</option>
-            </select>
-          </div>
-        </fieldset>
+            <div class="field">
+              <label class="w-50">Отделка:</label>
+              <select class="input w-30">
+                <option>Без отделки</option>
+                <option>Стандартная</option>
+                <option>Премиум</option>
+              </select>
+            </div>
+          </fieldset>
 
-        <br>
+          <br>
 
-        <fieldset class="border-color-alt p-20p">
-          <legend class="color-alt fs-20p">Контактная информация</legend>
-          <div class="field">
-            <label class="w-50">Имя:</label>
-            <input class="input w-50">
-          </div>
-          <div class="field">
-            <label class="w-50">Телефон:</label>
-            <input class="input w-50">
-          </div>
-          <div class="field">
-            <label class="w-50">E-mail:</label>
-            <input class="input w-50">
-          </div>
-        </fieldset>
+          <fieldset class="border-color-alt p-20p">
+            <legend class="color-alt fs-20p">Контактная информация</legend>
+            <div class="field">
+              <label class="w-50">Имя:</label>
+              <input class="input w-50">
+            </div>
+            <div class="field">
+              <label class="w-50">Телефон:</label>
+              <input class="input w-50">
+            </div>
+            <div class="field">
+              <label class="w-50">E-mail:</label>
+              <input class="input w-50">
+            </div>
+          </fieldset>
 
-        <br>
+          <br>
 
-        <a class="button w-25 ta-center border-color-alt color-alt">Отправить</a>
-      </section>
-    </form>
+          <a class="button w-25 border-color-alt color-alt">Отправить</a>
+        </section>
+      </form>
+    </div>
 
   </main>
 
-  <footer class="fullscreen-section jc-evenly h-footer bg-color-inv color-sec fs-13p fw-bold">
+  <footer class="footer bg-color-inv color-sec fs-13p fw-bold">
     <div>
       <div class="d-flex ai-center">
         <img class="h-30p pr-10p" src="images/logo.svg" alt="Логотип">
