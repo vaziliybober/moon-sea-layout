@@ -216,6 +216,10 @@
   background: var(--color-prim);
 }
 
+.bg-color-prim {
+  background: var(--color-sec);
+}
+
 .bg-color-alt {
   background: var(--bg-color-alt);
 }
