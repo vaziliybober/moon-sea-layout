@@ -42,7 +42,7 @@ a:active {
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  padding: 40px;
+  padding: 40px 0;
 }
 
 .wrapper {
@@ -64,6 +64,16 @@ a:active {
   border-width: 1px;
   border-style: solid;
   text-align: center;
+}
+
+.button-sec {
+  border-color: var(--color-sec);
+  color: var(--color-sec);
+}
+
+.button-alt {
+  border-color: var(--color-alt);
+  color: var(--color-alt);
 }
 
 .button:hover {
