@@ -92,8 +92,8 @@
   width: 30%;
 }
 
-.w-40 {
-  width: 40%;
+.w-35 {
+  width: 35%;
 }
 
 .w-50 {
@@ -124,6 +124,14 @@
   padding-top: var(--h-header);
 }
 
+.pt-10p {
+  padding-top: 10px;
+}
+
+.pt-20p {
+  padding-top: 20px;
+}
+
 .pr-10p {
   padding-right: 10px;
 }
@@ -152,6 +160,10 @@
   margin: 0;
 }
 
+.m-10p {
+  margin: 10px;
+}
+
 .ta-right {
   text-align: right;
 }
@@ -168,6 +180,10 @@
   font-size: 20px;
 }
 
+.fs-16p {
+  font-size: 16px;
+}
+
 .fs-13p {
   font-size: 13px;
 }
@@ -180,16 +196,8 @@
   font-weight: normal;
 }
 
-.opacity {
+.opacity-07 {
   opacity: 0.7;
-}
-
-.color-white {
-  color: white;
-}
-
-.color-prim {
-  color: var(--color-prim);
 }
 
 .color-sec {
@@ -208,14 +216,14 @@
   border-color: var(--color-alt);
 }
 
-.bg-color-inv {
-  background: var(--color-prim);
+.bg-color-main {
+  background: var(--color-main);
 }
 
-.bg-color-prim {
+.bg-color-sec {
   background: var(--color-sec);
 }
 
-.bg-color-alt {
-  background: var(--bg-color-alt);
+.bg-color-sec-darker {
+  background: var(--color-sec-darker);
 }

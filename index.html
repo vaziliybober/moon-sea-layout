@@ -11,9 +11,12 @@
   <link rel="stylesheet" href="styles/atomic.css">
 </head>
 
+
 <body class="m-0 landing-text">
 
-  <header class="header bg-color-prim fw-bold">
+  <div class="pt-header"></div>
+
+  <header class="header bg-color-sec fw-bold">
     <div class="d-flex ai-center">
       <img class="h-50p p-10p" src="images/logo.svg" alt="Логотип">
       <span class="pr-20p">Лунное море</span>
@@ -27,21 +30,19 @@
     </nav>
   </header>
 
-  <div class="pt-header"></div>
-
   <main>
-    <div class="wrapper bg-banner">
-      <section class="container fd-column ai-center color-sec">
+    <section class="bg-banner">
+      <div class="container fd-column ai-center color-sec">
         <img class="h-150p pb-10p" src="images/logo.svg" alt="Логотип">
         <h1 class="m-0 fs-43p pb-5p">ЖК «Лунное море»</h1>
         <span class="m-0 pb-20p fw-bold">Место, откуда не хочется улетать</span>
         <a class="button button-sec" href="#application-form">Забронировать</a>
-      </section>
-    </div>
+      </div>
+    </section>
 
     <a class="anchor" id="advantages"></a>
-    <div class="wrapper">
-      <section class="container">
+    <section>
+      <div class="container">
         <div class="w-25">
           <h2>Уникальный вид</h2>
           <p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками</p>
@@ -54,112 +55,105 @@
           <h2>Близость к Москве</h2>
           <p>При небольшой цене мы располагаемся близко к МКАД. Всего 384 000 километров и вы в самом сердце России.</p>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
 
     <a class="anchor" id="about"></a>
-    <div class="wrapper bg-color-alt">
-      <section class="container ai-center">
+    <section class="bg-color-sec-darker">
+      <div class="container ai-center">
         <div class="w-50">
           <h2>О ЖК «Лунное море»</h2>
           <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
           <p>Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от Земли.</p>
         </div>
         <img class="h-150p" src="images/moon-1.jpg" alt="Луна">
-      </section>
-    </div>
+      </div>
+    </section>
 
     <a class="anchor" id="rest-zones"></a>
-    <div class="wrapper">
-      <section class="container ai-center">
+    <section>
+      <div class="container ai-center">
         <img class="h-150p" src="images/moon-2.jpg" alt="Отдых на луне">
         <div class="w-50">
           <h2>Места для отдыха</h2>
           <p>Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.</p>
           <p>Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».</p>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
 
     <a class="anchor" id="application-form"></a>
-    <div class="wrapper bg-color-alt">
-      <form>
-        <section class="container fd-column w-form fw-bold">
-          <h2 class="as-center">Оставьте заявку сегодня!</h2>
+    <section class="bg-color-sec-darker">
+      <form class="container fd-column w-form fw-bold">
+        <h2 class="as-center">Оставьте заявку сегодня!</h2>
 
-          <fieldset class="border-color-alt p-20p">
-            <legend class="color-alt fs-20p">Параметры квартиры</legend>
+        <fieldset class="border-color-alt p-20p m-10p">
+          <legend class="color-alt fs-20p">Параметры квартиры</legend>
 
-            <div class="field">
-              <label class="w-50">Количество комнат:</label>
-              <select class="input w-30">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-              </select>
-            </div>
+          <div class="field">
+            <label class="w-50">Количество комнат:</label>
+            <select class="input w-35">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
+          </div>
 
-            <div class="field">
-              <label class="w-50">Отделка:</label>
-              <select class="input w-30">
-                <option>Без отделки</option>
-                <option>Стандартная</option>
-                <option>Премиум</option>
-              </select>
-            </div>
-          </fieldset>
+          <div class="field">
+            <label class="w-50">Отделка:</label>
+            <select class="input w-35">
+              <option>Без отделки</option>
+              <option>Стандартная</option>
+              <option>Премиум</option>
+            </select>
+          </div>
+        </fieldset>
 
-          <br>
+        <fieldset class="border-color-alt p-20p m-10p">
+          <legend class="color-alt fs-20p">Контактная информация</legend>
+          <div class="field">
+            <label class="w-50">Имя:</label>
+            <input class="input w-50">
+          </div>
+          <div class="field">
+            <label class="w-50">Телефон:</label>
+            <input class="input w-50">
+          </div>
+          <div class="field">
+            <label class="w-50">E-mail:</label>
+            <input class="input w-50">
+          </div>
+        </fieldset>
 
-          <fieldset class="border-color-alt p-20p">
-            <legend class="color-alt fs-20p">Контактная информация</legend>
-            <div class="field">
-              <label class="w-50">Имя:</label>
-              <input class="input w-50">
-            </div>
-            <div class="field">
-              <label class="w-50">Телефон:</label>
-              <input class="input w-50">
-            </div>
-            <div class="field">
-              <label class="w-50">E-mail:</label>
-              <input class="input w-50">
-            </div>
-          </fieldset>
-
-          <br>
-
-          <a class="button button-alt w-25">Отправить</a>
-        </section>
+        <a class="button button-alt w-25 m-10p">Отправить</a>
       </form>
-    </div>
+    </section>
 
   </main>
 
-  <footer class="footer bg-color-inv color-sec fs-13p fw-bold">
+  <footer class="footer bg-color-main color-sec fs-13p fw-bold">
     <div>
       <div class="d-flex ai-center">
         <img class="h-30p pr-10p" src="images/logo.svg" alt="Логотип">
         <span class="pr-20p">Лунное море</span>
       </div>
-      <br>
-      <span class="fw-normal opacity">&copy; 2032 год</span>
+      <div class="pt-10p fw-normal opacity-07">&copy; 2032 год</div>
     </div>
 
     <div>
-      <h3>Проектная документация</h3>
-      <menu>
+      <div class="pt-20p fs-16p">Проектная документация</div>
+      <ul>
         <li>Скачать</li>
         <li>Посмотреть на сайте</li>
-      </menu>
+      </ul>
     </div>
 
     <div>
-      <h3>О застройщике</h3>
-      <menu>
+      <div class="pt-20p fs-16p">О застройщике</div>
+      <ul>
         <li>Отзывы</li>
         <li>Сайт компании</li>
-      </menu>
+      </ul>
     </div>
 
   </footer>

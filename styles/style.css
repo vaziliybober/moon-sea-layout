@@ -26,11 +26,14 @@ a:active {
   justify-content: space-evenly;
   width: var(--w-main);
   padding: 40px 0;
+  margin: 0 auto;
 }
 
 .header {
   display: flex;
   position: fixed;
+  top: 0;
+  left: 0;
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -43,11 +46,6 @@ a:active {
   align-items: center;
   width: 100%;
   padding: 40px 0;
-}
-
-.wrapper {
-  display: flex;
-  justify-content: center;
 }
 
 .bg-banner {
